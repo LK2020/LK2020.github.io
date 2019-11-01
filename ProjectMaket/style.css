@@ -1,0 +1,659 @@
+/* Fonts settings */
+@font-face {
+  font-family: 'Proxima_bold';
+  src: url('fonts/ProximaNova-Bold.eot');
+  src: url('fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/ProximaNova-Bold.woff2') format('woff2'), url('fonts/ProximaNova-Bold.woff') format('woff'), url('fonts/ProximaNova-Bold.ttf') format('truetype'), url('fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima_reg';
+  src: url('fonts/ProximaNova-Regular.eot');
+  src: url('fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/ProximaNova-Regular.woff2') format('woff2'), url('fonts/ProximaNova-Regular.woff') format('woff'), url('fonts/ProximaNova-Regular.ttf') format('truetype'), url('fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Colors*/
+/* Basic settings */
+html {
+  font-size: 10px;
+}
+/* Main */
+.section-header h2 {
+  font-family: 'Proxima_bold';
+  font-size: 3rem;
+  text-align: center;
+  vertical-align: middle;
+  margin: 8rem auto 3rem;
+}
+.section-header p {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+.form {
+  margin-top: 0;
+  background: #fff;
+  padding: 4rem 5rem;
+  text-align: center;
+}
+.form-title {
+  font-family: 'Proxima_reg';
+  margin-top: 1.5rem;
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+.form-title strong {
+  font-size: 1.9rem;
+}
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin: 3rem 0;
+  border-radius: 5px;
+}
+.form-btn {
+  width: 100%;
+  display: block;
+  height: 4rem;
+}
+.form label {
+  display: inline-block;
+  padding: 0.5rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: #fff;
+}
+.main {
+  padding: 3rem 0;
+  background: url(img/main/fon.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.main-content {
+  margin-top: 10rem;
+}
+.main-title {
+  font-family: 'Proxima_bold';
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.main-subtitle {
+  font-family: 'Proxima_reg';
+  margin-top: 4rem;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.main-cost {
+  font-family: 'Proxima_reg';
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  background-color: #70c849;
+  display: inline-block;
+  height: 10rem;
+  width: 20.2rem;
+  padding: 2rem 4rem;
+  color: #fff;
+}
+.main-trigger {
+  font-family: 'Proxima_bold';
+  text-transform: uppercase;
+  margin-top: 3rem;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.main .form-title {
+  font-family: 'Proxima_reg';
+  margin-top: 1.5rem;
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+.main .form-title strong {
+  font-size: 1.9rem;
+}
+.main .form small {
+  display: block;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none !important;
+}
+.button {
+  background-color: #ffb504;
+  border: none;
+  padding: 1rem 2rem;
+  color: #fff;
+  display: inline-block;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  transition: all 0.2s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #eaa500;
+}
+.phone-block {
+  display: block;
+  text-align: right;
+}
+.phone-link {
+  font-family: 'Proxima_bold';
+  display: inline-block;
+  color: #1a1820;
+  font-size: 2rem;
+  line-height: 7rem;
+  height: 7rem;
+  font-weight: 500;
+}
+.phone-link:hover {
+  text-decoration: none;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+  text-align: right;
+}
+.wrap-box {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* Оформление блока с преимуществами */
+.features {
+  margin: 10rem auto;
+}
+.features-block {
+  text-align: center;
+}
+.features-block h3 {
+  font-size: 2rem;
+  font-family: 'Proxima_bold';
+  margin-bottom: 3rem;
+}
+.features-block p {
+  font-size: 1.4rem;
+  display: inline-block;
+  width: 80%;
+}
+.features-img {
+  height: 8rem;
+  margin-bottom: 3rem;
+}
+.features-img img {
+  display: block;
+  margin: 0 auto;
+}
+/* блок с ценами */
+.price {
+  background: #70c849 url(img/price/fon3.jpg) center;
+  padding: 2.5rem 2rem;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+.price .section-header button {
+  margin-top: 8rem;
+  font-size: 1.4rem;
+}
+.price-block {
+  background-color: #fff;
+  display: block;
+  padding: 2rem 2rem;
+  color: #1a1820;
+  min-height: 60rem;
+  box-shadow: 7px 12px 21px 0 px rgba(0, 0, 0, 0.17);
+  margin-bottom: 2rem;
+}
+.price-block p {
+  margin: 2rem 0;
+  font-size: 1.6rem;
+}
+.price-block-header {
+  display: block;
+  min-height: 5rem;
+  min-width: 25rem;
+  margin: 2rem 0;
+  font-family: 'Proxima_bold';
+  font-size: 1.8rem;
+}
+.price-list {
+  font-size: 1.6rem;
+  min-height: 18rem;
+  list-style-type: none;
+  padding: 0;
+}
+.price-list li::before {
+  content: '';
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  background: url(img/price/check.png) no-repeat center;
+  background-size: 100%;
+  margin: 0.1rem 0.3rem 0 0;
+}
+.price img {
+  width: 25rem;
+}
+.feedback {
+  background: #fff url(img/feedbacks/bg.ipg) no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+.feedback-form {
+  margin: 5rem auto;
+  padding: 3rem;
+  text-align: center;
+}
+.feedback-form .form-input {
+  margin-top: 5rem;
+  height: 5rem;
+}
+.feedback-form label {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+}
+.feedback-form .form-btn {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  width: 40rem;
+  height: 5rem;
+}
+.feedback-form img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 25%;
+}
+.feedback-form h3 {
+  font-size: 2.5rem;
+  margin-bottom: 5rem;
+}
+.feedback-text {
+  border: 2px solid #70c849;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-style: italic;
+  position: relative;
+}
+.feedback-text::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -2rem;
+  left: 4rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: #fff;
+  border: 2px solid #70c849;
+  border-bottom: #fff;
+  border-top-right-radius: 100px;
+}
+.feedback-slider {
+  background-color: #fff;
+  box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.11);
+  padding: 5rem 6rem;
+  font-size: 1.4rem;
+}
+.feedback-slider .media {
+  margin-top: 3rem;
+}
+.feedback-slider .media h4 {
+  font-family: 'Proxima_bold';
+}
+.feedback-slider p {
+  font-size: 1.6rem;
+}
+.feedback-slider-prev-btn {
+  left: -4rem;
+}
+.feedback-slider-next-btn {
+  right: -4rem;
+}
+.feedback-slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4rem;
+  height: 5rem;
+  background-color: #70c849;
+  border: none;
+  color: #fff;
+}
+.feedback-slider-btn img {
+  width: 59%;
+}
+.scheme {
+  padding: 3rem;
+  background: #fff url(img/sсheme/fon_for_scheme.jpg) bottom 0 right 15rem no-repeat;
+  background-size: 30%;
+  padding-top: 1rem;
+}
+.scheme-block {
+  min-height: 11rem;
+  padding: 4rem 2rem;
+}
+.scheme-block h3 {
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+.scheme-block p {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.all-inclusive {
+  background: url(img/all-inclusive/fon.jpg) center;
+  background-size: cover;
+  display: block;
+  min-height: 55rem;
+  padding-top: 1rem;
+}
+.all-inclusive .media-body {
+  margin-left: 1.3rem;
+}
+.all-inclusive-block {
+  margin-bottom: 2rem;
+}
+.circle {
+  display: inline-block;
+  background-color: #70c849;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+.circle-border {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  padding: 0.3rem;
+  border: 2px solid #70c849;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 4rem;
+  color: #fff;
+  font-family: 'Proxima_bold';
+  font-size: 2rem;
+}
+.problems {
+  color: #1a1820;
+  min-height: 65rem;
+  background-color: #fff;
+  position: relative;
+}
+.problems-woman {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 30rem;
+  margin-left: -15rem;
+}
+.problems-list {
+  margin-bottom: 2rem;
+  min-height: 40rem;
+  padding: 3rem;
+  border: 2px solid;
+}
+.problems-list ul {
+  list-style: none;
+}
+.problems-list ul li {
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+}
+.problems-list ul li:before {
+  content: '';
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: 0.3rem 1rem auto auto;
+}
+.problems-list h4 {
+  font-size: 2.3rem;
+}
+.problems-bad {
+  border-color: black;
+  opacity: 0.8;
+}
+.problems-bad ul li:before {
+  background: url(img/problems/cancel.png) no-repeat center;
+  background-size: 80%;
+}
+.problems-good {
+  border-color: #70c849;
+}
+.problems-good ul li:before {
+  background: url(img/problems/checked.png) no-repeat center;
+  background-size: 80%;
+}
+.materials {
+  background: url(img/materials/fon.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 80rem;
+  padding-top: 1rem;
+}
+.materials .features-block {
+  min-height: 40rem;
+  margin-bottom: 3rem;
+}
+.materials .features-block img {
+  text-align: center;
+  margin: 2rem auto;
+}
+.materials .features-block p {
+  font-size: 2rem;
+  text-align: center;
+  display: inline-block;
+  min-height: 10rem;
+}
+.materials p {
+  font-size: 2rem;
+  text-align: center;
+}
+.materials a {
+  color: #70c849;
+  font-size: 2rem;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+.materials a:hover {
+  color: #58aa34;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+.tour {
+  background: url(img/tour/fon.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 67rem;
+}
+.tour-title {
+  margin-top: 16rem;
+  margin-bottom: 6rem;
+  font-family: 'Proxima_bold';
+  font-size: 3rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+.tour-title p {
+  font-family: 'Proxima_reg';
+  font-size: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  text-transform: none;
+}
+.tour .form {
+  margin-top: 12rem;
+}
+.tour .form button {
+  margin-bottom: 2rem;
+}
+.tour .form small {
+  font-size: 1rem;
+}
+.addition {
+  text-align: center;
+  color: #fff;
+  background: url(img/addition/fon.jpg) center no-repeat;
+  background-size: cover;
+  padding-top: 1rem;
+}
+.addition-block {
+  text-align: center;
+  padding: 2rem;
+}
+.addition-block img {
+  max-width: 30rem;
+  margin: 1rem auto;
+}
+.addition-block p {
+  font-size: 1.5em;
+}
+.addition-block button {
+  width: 60%;
+}
+.contacts {
+  background: url(img/contacts/fon.jpg) center no-repeat;
+  background-size: 100%;
+  padding-top: 0;
+}
+.contacts .section-header {
+  margin-top: 0;
+}
+.contacts p {
+  font-family: 'Proxima_reg';
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+.contacts .form {
+  background-color: #fff;
+  margin-top: 5rem;
+}
+.footer {
+  background-color: #fff;
+  margin-bottom: 0.2rem;
+  vertical-align: bottom;
+  margin-top: 2rem;
+  margin: 3rem;
+}
+.footer-contacts {
+  text-align: center;
+}
+.footer-contacts strong {
+  font-size: 2rem;
+}
+.footer-contacts p {
+  border-bottom: 1px dashed #1a1820;
+  margin: 0;
+}
+.footer p {
+  font-family: 'Proxima_reg';
+  margin-top: 0.3rem;
+  font-size: 1.4rem;
+}
+.footer-dev-logo {
+  text-align: right;
+}
+.slick-active {
+  outline: none;
+}
+/* переключение слайдера кнопка */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  outline: none !important;
+}
+.prev {
+  left: 0;
+  background: url(img/right-arrow.svg) center center no-repeat;
+  background-size: 80%;
+}
+.next {
+  right: 0;
+  background: url(img/left-arrow.svg) center center no-repeat;
+  background-size: 80%;
+}
+/* Модальные окна */
+/* Получить консультацию */
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 0;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-form {
+  margin-top: 3rem;
+  padding: 0;
+}
+.popup-header {
+  font-family: 'Proxima_bold';
+}
+.popup-close {
+  position: absolute;
+  top: -1.5rem;
+  right: -2rem;
+  width: 2rem;
+  border: none;
+  text-align: center;
+  background-color: transparent;
+  font-size: 3rem;
+  color: #fff;
+}
+.popup-content {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  background-color: #fff;
+  transform: translateX(-50%);
+  padding: 4rem 6rem;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .phone-block {
+    text-align: center;
+  }
+  .problems-woman {
+    display: none;
+  }
+  .main {
+    background-position: top right;
+  }
+  .main-title {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .feedback-form img {
+    width: 20%;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+  .wrap-box {
+    text-align: center;
+  }
+  .feedback-form img {
+    display: none;
+  }
+}

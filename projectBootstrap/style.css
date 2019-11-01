@@ -1,0 +1,61 @@
+/* секция 1 */
+.header-instruction{
+    font-family: Tahoma;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.header-how{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.header{
+    margin-top: 100px;
+    line-height: 1.5;
+}
+
+.form{
+    border: 3px solid #424cbf;
+    padding: 35px 25px;
+    height: 315px;
+}
+
+.form-header{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.form input{
+    margin: 20px auto 0 ;
+}
+
+.form button{
+    margin: 20px auto 0;
+}
+.header-section-2, .header-section-3{
+    margin-top: 100px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+/* секция 2 */
+
+.features{
+    margin: 60px auto ;
+}
+
+/* секция 3 */
+
+.clients .row{
+    margin-bottom: 20px;
+}
+
+.feature-box, img{
+    margin-bottom: 30px;
+}

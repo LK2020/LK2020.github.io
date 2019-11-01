@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Memoji</title>
+
+    <link type="text/css" rel="stylesheet" href="style.css" media="all">
+</head>
+
+<body>
+
+    <div class="body-blackout"></div>
+    <section>
+        <h1 class="title">Memoji</h1>
+        <div class="cards-field">
+            <div class="card">
+                <div class="back"></div>
+                <div class="front"></div>
+            </div>
+        </div>
+        <div id="timer">01:00</div>
+    </section>
+
+    <section class="modal-window">
+        <p id="modal-win" class="modal-text">Win</p>
+        <p id="modal-lose" class="modal-text">Lose</p>
+        <p><button id="modal-button" type="button" value="" onclick="restart()"></button></p>
+    </section>
+    <script src="./script.js"></script>
+    <script>
+        init();
+    </script>
+</body>
+
+</html>

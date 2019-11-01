@@ -1,0 +1,173 @@
+html,
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #CFD0CF;
+    color: #434344;
+}
+
+.title {
+    line-height: 47px;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cards-field {
+    display: grid;
+    grid-template-columns: 130px 130px 130px 130px;
+    grid-template-rows: 130px 130px 130px;
+    grid-template-areas: ". . . ." ". . . ." ". . . .";
+    gap: 25px 25px;
+    justify-content: center;
+    perspective: 600px;
+}
+
+.card {
+    cursor: pointer;
+    perspective: 600px;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+
+.front,
+.back {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    transition: 1s;
+    border-radius: 9px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+}
+
+.back {
+    border: 5px solid white;
+    background: linear-gradient(45deg, #22ab93, #19668d);
+}
+
+.front {
+    font-size: 75px;
+    text-align: center;
+    vertical-align: middle;
+    background: #fff;
+    transform: rotateY(180deg);
+}
+
+.luck .front {
+    background-color: #5AD66F;
+}
+
+.fail .front {
+    background-color: #F44336;
+}
+
+.card.open .front {
+    transform: rotateY(360deg);
+}
+
+.card.open .back {
+    transform: rotateY(180deg);
+}
+
+.card.close .front {
+    transform: rotateY(180deg);
+}
+
+.card.close .back {
+    transform: rotateY(0deg);
+}
+
+#timer {
+    line-height: 36px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #434344;
+    margin: 30px 0;
+}
+
+.modal-text {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #434344;
+    margin: 30px 0 0;
+}
+
+.modal-window p:not(.modal-text) {
+    margin: 0;
+    text-align: center;
+}
+
+#modal-button {
+    position: relative;
+    display: block;
+    margin: 40px auto 30px auto;
+    height: 40px;
+    padding: 10px 30px;
+    border-radius: 9px;
+    background: linear-gradient(45deg, #19668d, #22ab93);
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border: none;
+    box-shadow: 1px 1px 1px 0 black;
+}
+
+#modal-button:active {
+    box-shadow: inset 2px 1px 8px 0 black;
+}
+
+.modal-window {
+    min-width: 350px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 300ms ease-in-out;
+    z-index: 1011;
+}
+
+.modal-window.is-visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.body-blackout {
+    position: absolute;
+    z-index: 1010;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    display: none;
+}
+
+.body-blackout.is-not-visible {
+    display: block;
+}
+
+button:active,
+button:focus {
+    outline: none !important;
+}
+
+button::-moz-focus-inner {
+    border: 0 !important;
+}
